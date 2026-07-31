@@ -18,7 +18,7 @@ public class DBconnection {
             "com.mysql.jdbc.Driver");
 
             con = (Connection) DriverManager.getConnection(
-            "jdbc:mysql://localhost/Dentaldb",
+            "jdbc:mysql://localhost/dentaldb",
             "root",
             "");
             
