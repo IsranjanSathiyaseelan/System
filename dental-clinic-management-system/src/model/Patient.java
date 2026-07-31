@@ -9,41 +9,58 @@ package model;
  * @author Isranjan
  */
 public class Patient {
-    private int id;
-    private String name;
+    private int patientId;
+    private String patientName;
     private String address;
-    private int contactnum;
+    private String contactNumber;
+    private String gender;
+    private String dateOfBirth;
 
-    public int getId() {
-        return id;
+    public int getPatientId() {
+        return patientId;
     }
 
-    public String getName() {
-        return name;
+    public void setPatientId(int patientId) {
+        this.patientId = patientId;
+    }
+
+    public String getPatientName() {
+        return patientName;
+    }
+
+    public void setPatientName(String patientName) {
+        this.patientName = patientName;
     }
 
     public String getAddress() {
         return address;
     }
 
-    public int getContactnum() {
-        return contactnum;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public void setAddress(String address) {
         this.address = address;
     }
 
-    public void setContactnum(int contactnum) {
-        this.contactnum = contactnum;
+    public String getContactNumber() {
+        return contactNumber;
     }
-    
+
+    public void setContactNumber(String contactNumber) {
+        this.contactNumber = contactNumber;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
 }
